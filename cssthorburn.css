@@ -1,0 +1,31 @@
+body{font-family: helvetica;}
+
+#title1 {
+  color: green;
+  font-family: helvetica;
+  font-variant: small-caps;
+}
+
+body {background-color: black;}
+.linkcap1 {color: white;
+}
+
+#text1 {
+  color: white;
+}
+
+#textlarge {
+  color: lightblue;
+  font-variant: small-caps;
+}
+
+.links {color: green; font-variant: small-caps; font-size: 20px; font-weight: bold}
+
+.title3 {color: yellow; font-variant: small-caps}
+
+#questext1{color: white;}
+
+#questext2{color: lightblue;}
+
+
+
