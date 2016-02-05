@@ -8,20 +8,25 @@ box-sizing: border-box;
 }
 
 
+.promo-container{
+    background-color: antiquewhite;
+    font-family: helvetica;
+}
+
 header {
     display: flex;
 }
 
 
 .branding {
-    background: slategrey ;
+    background: black ;
     width: 150px;
     height: 45px;
     margin-right: auto;
 
 }
 
-header a {
+.pill-button {
     display: inline-block;
     background: lightblue;
     padding: 10px 30px 10px 30px;
@@ -30,8 +35,25 @@ header a {
     text-decoration: none;
 }
 
+.promo{
+    background: cornflowerblue;
+    color: antiquewhite;
+    font-size: 25px;
+}
+
 /* Big Promo */
 
 #big-promo {
-    
+    padding-top: 200px;
+    background-color: cornflowerblue;
+    font-family: helvetica;
 }
+
+
+.promo-message{
+    width: 60%;
+    padding: 50px;
+    background: goldenrod
+ 
+}
+
