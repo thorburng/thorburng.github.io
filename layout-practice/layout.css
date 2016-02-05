@@ -1,0 +1,37 @@
+* {
+box-sizing: border-box;
+}
+
+.main-container{
+    width: 900px;
+    margin: 0 auto 0 auto;
+}
+
+
+header {
+    display: flex;
+}
+
+
+.branding {
+    background: slategrey ;
+    width: 150px;
+    height: 45px;
+    margin-right: auto;
+
+}
+
+header a {
+    display: inline-block;
+    background: lightblue;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+/* Big Promo */
+
+#big-promo {
+    
+}
