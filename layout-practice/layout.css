@@ -54,6 +54,23 @@ header {
     width: 60%;
     padding: 50px;
     background: goldenrod
- 
 }
 
+footer {
+    padding: 15px 10px 15px 10px;
+    display: flex;   
+    font-size: 10px;
+}
+
+.footer-links {
+    flex: 1;
+}
+
+.footer-copyright {
+    text-align: right;
+    flex: 1;
+}
+
+.footer-copyright p {
+    margin: 0;
+}
