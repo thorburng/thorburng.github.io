@@ -1,0 +1,145 @@
+#container {
+  background: white;
+  width: 960px;
+  height: 570px;
+    border-style: solid;
+    border-width: 5px;
+
+
+  
+}
+
+
+#box1 {
+  background: maroon;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#box2 {
+  background: cornflowerblue;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+    border-top: 170px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: white
+    
+}
+
+#box3 {
+  background: goldenrod;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+    top: 383px;
+    left:773px;
+}
+
+#box4 {
+  background: green;
+  width: 200px;
+  height: 200px;
+    position:absolute;
+    top: 13px;
+    left: 773px
+ 
+}
+
+#long_box_1 {
+    width: 240px;
+    height: 570px;
+    background: maroon;
+    position: absolute;
+    top: 700px;
+    border-style: solid;
+    border-width: 5px;
+    border-right: 0px;   
+    
+}
+
+#long_box_2 {
+    width: 240px;
+    height: 570px;
+    background: darkgreen;
+    position: absolute;
+    top: 700px;
+    left: 240px;
+    border-style: solid;
+    border-width: 5px;
+    border-right: 0px; 
+    border-left: 0px;
+    
+}
+
+#long_box_3 {
+    width: 240px;
+    height: 570px;
+    background: cornflowerblue;
+    position: absolute;
+    top: 700px;
+    left: 480px;
+    border-style: solid;
+    border-width: 5px;
+    border-right: 0px; 
+    border-left: 0px;
+    
+}
+
+#long_box_4 {
+    width: 240px;
+    height: 570px;
+    background: goldenrod;
+    position: absolute;
+    top: 700px;
+    left: 720px;
+    border-style: solid;
+    border-width: 5px;
+    border-left: 0px;    
+}
+
+#bottom_box_1{
+    width: 960px;
+    height: 570px;
+    position:absolute;
+    top: 1400px;
+    border-style: solid;
+    border-width: 5px;
+    
+}
+
+#bottom_box_2{
+    width: 920px;
+    height: 120px;
+    background: maroon;
+    position: absolute;
+    top: 1420px;
+    left:40px;
+}
+
+#bottom_box_3{
+    width: 175px;
+    height: 395px;
+    background: darkgreen;
+    position: absolute;
+    top: 1560px;
+    left: 40px;  
+}
+
+#bottom_box_4{
+    width: 730px;
+    height: 395px;
+    background: cornflowerblue;
+    position: absolute;
+    top: 1560px;
+    left: 235px;
+    
+}
