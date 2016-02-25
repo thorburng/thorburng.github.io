@@ -1,0 +1,42 @@
+.main {
+    width: 800px;
+    height:auto;
+   margin: 0 auto;
+}
+.main p {
+    font-family: 'Roboto Condensed', arial, sans-serif;
+    text-indent : 10px;
+    line-height: 30px;
+}
+
+.main h1 {
+    font-family: 'Montserrat', arial, sans-serif;
+    text-shadow: 2px 4px 10px rgba(0,0,0,0.3);
+    letter-spacing: 40px
+}
+
+.main pa {
+    font-family: 'Roboto Condensed', arial, sans-serif;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-size: 20px
+}
+
+.main h2 {
+    font-family: 'Montserrat', arial, sans-serif;
+    text-indent: 50px;
+    letter-spacing:  4px;
+    color: darkslategray
+    
+}
+
+.main pq {
+    font-family: 'Roboto Condensed', arial, sans-serif;
+    font-size: 23px;
+    font-style:italic;
+    text-align: center;
+    float:right;
+    word-spacing:  3px;
+    letter-spacing:  4px;
+    padding: 15px
+}
