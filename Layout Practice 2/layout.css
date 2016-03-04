@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+.promo-container {
+    background-color: #3b9fff;
+}
+
+header {
+    display: flex;
+}
+
+.branding {
+    background: black;
+    width:150px;
+    height:45px;
+    margin-right: auto;
+}
+
+.pill-button {
+    display: inline-block;
+    background: #ffb335;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    color: Black;
+    text-decoration: none;
+    font-family: Montserrat;
+    box-shadow: 5px 5px 1px 
+}
+
+.pill-button:hover {
+    background: lightgreen;
+    font-size: 125%;
+    color: white;
+}
+
+.promo {
+    background: white;
+    color: black;
+    font-size: 18px;
+}
+
+/* Big Promo */
+
+#big-promo {
+    padding-top: 200px;
+    
+}
+
+.promo-message {
+    width: 60%;
+    padding: 50px;
+    font-family: Montserrat;
+}
+
+/* Product Features */
+
+.product-features, .product-buy-it-now {
+  display: flex;
+}
+
+.feature {
+  text-align: center;
+  padding: 20px;
+    background-color: #005bb2;
+    font-family: Montserrat;
+}
+
+.feature-image {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.product-buy-it-now {
+  align-items: center;
+    Background: #ffa91b;
+    font-family: Montserrat;
+}
+
+.product-info {
+  text-align: right;
+}
+
+/* Product Reviews */
+
+#product-reviews {
+  background: #b2730a;
+  color: white;
+  text-align: center;
+  padding: 50px;
+    font-family: Montserrat;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  padding: 15px 10px 15px 10px;
+  font-size: 12px;
+    font-family: Montserrat;
+}
+
+.footer-links {
+  flex: 1;
+}
+
+.footer-copyright {
+  flex: 1;
+  text-align: right;
+}
+
+.footer-copyright p {
+  margin: 0;
+}
