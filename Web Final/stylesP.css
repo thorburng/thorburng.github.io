@@ -73,9 +73,12 @@ p{
 .product-features {
     display: flex;
     background-color: #7994ff;
+    width: 1000px;
+    margin-left: 284px
 }
 
 .feature {
+    
     text-align: center;
     margin-left: 50px;
     margin-right: 60px;
@@ -127,6 +130,8 @@ p{
     display: flex;
     background-color:#7994FF;
     padding-bottom: 70px;
+    width: 1000px;
+    margin-left: 284px;
 }
 
 #feature-pic {
@@ -166,6 +171,8 @@ p{
 }
 footer {
     display: flex;
+    width:1000px;
+    margin-left: 284;
     background-color:#63A1E8;
     padding: 10px 10px 15px 10px;
     font-size: 12px;
