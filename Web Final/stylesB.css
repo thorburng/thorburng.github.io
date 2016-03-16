@@ -1,0 +1,184 @@
+/*  Ian, sorry if there is a bunch of unused styles in here. It was easiest just to copy my first CSS file and modify it for each subsequent page. */
+*{
+    box-sizing: border-box;
+    
+    
+}
+
+.main-container {
+    width: 1000px;
+    margin: 0 auto 0 auto;
+    
+}
+
+.top-container {
+    ackground-color: crimson;
+    height: 350px;
+    background-image:url("banner4.jpg");
+
+}
+
+header {
+    display: flex;
+    background-color: #63A1E8;
+}
+
+.branding {
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+nav {
+    margin-top: 24px;
+    margin-left: 10px;
+    
+}
+
+.nav-button {
+    color: black;
+    font-family: Montserrat;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+h1 {
+    text-align: left;
+        font-family: Montserrat;
+}
+
+p{
+    text-align: left;
+    font-family: Montserrat;
+}
+
+.top-button {
+    float: left;
+    margin-left: 450px;
+    margin-top: 20px;
+    background-color: midnightblue;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    color:white;
+    text-decoration: none;
+    
+}
+
+
+
+.product-features {
+    display: flex;
+    background-color: #7994ff;
+}
+
+.feature {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 60px;
+    padding-bottom: 20;
+    margin-top: 60px;
+    background-color: #6C63E8;
+    border-style: solid;
+}
+
+.price-header {
+    font-family: Montserrat;
+    font-size: 80px;
+    margin-top: 0;
+}
+
+.package {
+    margin-top: -80
+}
+
+#MP {
+    margin-top: -15px;
+    font-size:10px;
+}
+
+.buy-now-button {
+    float: left;
+    margin-left: 38px;
+    margin-top: 60px;
+    background-color: midnightblue;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    color:white;
+    text-decoration: none;
+}
+
+#features {
+    text-align: center;
+    font-family: Montserrat;
+    margin-top: 30
+}
+
+
+.product-large-feature {
+    display: flex;
+    background-color:#7994FF;
+    padding-bottom: 70px;
+}
+
+#feature-pic {
+    margin-left: 450px;
+    margin-top: -80px;
+    border-radius: 20px
+}
+
+#feature-bottom {
+    text-align: center;
+    margin-left: 120;
+    margin-right: 120;
+    font-family: Montserrat;
+}
+
+#feature-heading {
+    margin-top: 50px;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.features-button {
+    
+    margin-left: 426px;
+    margin-top: 50px;
+    background-color: midnightblue;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    color:white;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    background-color:#63A1E8;
+    padding: 10px 10px 15px 10px;
+    font-size: 12px;
+    font-family: Montserrat;
+    
+}
+
+.footer-links { 
+    margin-left: 650px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.footer-info {
+    flex: 1;
+}
+
+
+
+#BLOG {
+    text-align: left
+}

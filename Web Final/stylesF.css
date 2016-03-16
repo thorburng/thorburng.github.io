@@ -1,0 +1,202 @@
+/*  Ian, sorry if there is a bunch of unused styles in here. It was easiest just to copy my first CSS file and modify it for each subsequent page. */
+*{
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+.top-container {
+    ackground-color: crimson;
+    height: 350px;
+    background-image:url("https://images.unsplash.com/5/unsplash-kitsune-4.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=f61b1afa054c4fed3e54ae93fed5da27");
+
+}
+
+header {
+    display: flex;
+    background-color: #63A1E8;
+}
+
+.branding {
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+nav {
+    margin-top: 24px;
+    margin-left: 10px;
+    
+}
+
+.nav-button {
+    color: black;
+    font-family: Montserrat;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+h1 {
+    text-align: center;
+        font-family: Montserrat;
+}
+
+p{
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.top-button {
+    float: left;
+    margin-left: 450px;
+    margin-top: 20px;
+    background-color: midnightblue;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    color:white;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+.product-features-1 {
+    display:flex;
+    font-family: Montserrat;
+}
+
+.product-features-2 {
+    display:flex;
+    font-family: Montserrat;
+    margin-top: -100px;
+}
+
+.feature {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 230px;
+    padding-top: 50px;
+    background-color: #7994FF;
+    
+}
+
+.feature2 {
+    float: left;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 230px;
+    background-color: #7994ff;
+    
+}
+
+
+.feature-image {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 0 auto;
+    border-radius:20px;
+    overflow: hidden;
+}
+
+#feature-header {
+    float: right;
+    position: relative;
+    left: 60px;
+    top: -170px;
+}
+
+#features {
+    float: right;
+    text-align: left;
+    font-family: Montserrat;
+    position: relative;
+    left: 170px;
+    top: -200px;
+}
+
+.product-large-feature {
+    display: flex;
+    background-color:#7994FF;
+    padding-bottom: 70px;
+}
+
+#feature-pic {
+    margin-left: 100px;
+    margin-top: -80px;
+    border-radius: 20px;
+}
+
+#feature-bottom {
+    text-align: center;
+    margin-left: 90px;
+    font-family: Montserrat;
+}
+
+#feature-heading {
+    margin-left: 38px;
+    font-family: Montserrat;
+}
+
+
+.features-button {
+    margin-left: 340px;
+    background-color: midnightblue;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    color:white;
+    text-decoration: none;
+}
+
+.features-button:hover {
+    background-color: blue;
+}
+
+.fivepics {
+    padding-left: 120px;
+    padding-bottom: 40px;
+    background-color:#7994ff;
+}
+
+.five {
+    border-radius: 20px;
+}
+
+#five-text {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-right: 100px;
+}
+
+footer {
+    display: flex;
+    background-color:#63A1E8;
+    padding: 10px 10px 15px 10px;
+    font-size: 12px;
+    font-family: Montserrat;
+    text-decoration: none;
+    
+}
+
+.footer-links { 
+    margin-left: 650px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.footer-info {
+    flex: 1;
+}
+
+
+

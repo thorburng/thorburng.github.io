@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+.top-container {
+    ackground-color: crimson;
+    height: 350px;
+    background-image:url("banner3.jpg");
+
+}
+
+header {
+    display: flex;
+    background-color: #63A1E8;
+}
+
+.branding {
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+nav {
+    margin-top: 24px;
+    margin-left: 10px;
+    
+}
+
+.nav-button {
+    color: black;
+    font-family: Montserrat;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+h1 {
+    text-align: center;
+        font-family: Montserrat;
+    background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255,.5);
+}
+
+.main-subtext{
+    text-align: center;
+    font-family: Montserrat;
+     background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255,.5);
+}
+
+.top-button {
+    float: left;
+    margin-left: 450px;
+    margin-top: 20px;
+    background-color: midnightblue;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    color:white;
+    text-decoration: none;
+    
+}
+.top-button:hover {
+    background-color: blue;
+    
+}
+
+#features {
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.product-features {
+    display: flex;
+    font-family: Montserrat;
+}
+
+.feature {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #7994FF;
+    
+}
+
+
+.feature-image {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 0 auto;
+    border-radius:20px;
+    overflow: hidden;
+    order-style: dotted;
+    border-width: 4px;
+    border-color: midnightblue;
+}
+
+.product-large-feature {
+    display: flex;
+    background-color:#7994FF;
+    padding-bottom: 70px;
+}
+
+#feature-pic {
+    margin-left: 450px;
+    margin-top: -190px;
+    border-radius: 20px;
+    order-style: dotted;
+    border-width: 4px;
+    border-color: midnightblue;
+}
+
+#feature-bottom {
+    text-align: left;
+    margin-left: 38px;
+    font-family: Montserrat;
+}
+
+#feature-heading {
+    margin-left: 38px;
+    font-family: Montserrat;
+}
+
+
+.features-button {
+    float: left;
+    margin-left: 38px;
+    margin-top: 20px;
+    background-color: midnightblue;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    color:white;
+    text-decoration: none;
+}
+
+.features-button:hover {
+    background-color: blue;
+}
+
+footer {
+    display: flex;
+    background-color:#63A1E8;
+    padding: 10px 10px 15px 10px;
+    font-size: 12px;
+    font-family: Montserrat;
+    
+}
+
+.footer-links { 
+    margin-left: 650px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.footer-info {
+    flex: 1;
+}
+
+
+
